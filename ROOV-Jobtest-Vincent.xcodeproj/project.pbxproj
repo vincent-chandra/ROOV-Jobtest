@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7761C6AE1AEBAB633A07A2C5 /* Pods_ROOV_Jobtest_Vincent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29E09CE9DABD1A32A9B6625 /* Pods_ROOV_Jobtest_Vincent.framework */; };
+		BFCB646128CED559008BD548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB646028CED559008BD548 /* AppDelegate.swift */; };
+		BFCB646328CED559008BD548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB646228CED559008BD548 /* SceneDelegate.swift */; };
+		BFCB646528CED559008BD548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB646428CED559008BD548 /* ViewController.swift */; };
+		BFCB646828CED559008BD548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB646628CED559008BD548 /* Main.storyboard */; };
+		BFCB646A28CED55B008BD548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB646928CED55B008BD548 /* Assets.xcassets */; };
+		BFCB646D28CED55B008BD548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB646B28CED55B008BD548 /* LaunchScreen.storyboard */; };
+		BFCB648428CED632008BD548 /* UserReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB648028CED632008BD548 /* UserReviewTableViewCell.xib */; };
+		BFCB648528CED632008BD548 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB648128CED632008BD548 /* MovieDetailsViewController.swift */; };
+		BFCB648628CED632008BD548 /* UserReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB648228CED632008BD548 /* UserReviewTableViewCell.swift */; };
+		BFCB648728CED632008BD548 /* MovieDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB648328CED632008BD548 /* MovieDetailsViewController.storyboard */; };
+		BFCB648B28CED64B008BD548 /* MovieCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB648928CED64B008BD548 /* MovieCellCollectionViewCell.xib */; };
+		BFCB648C28CED64B008BD548 /* MovieCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB648A28CED64B008BD548 /* MovieCellCollectionViewCell.swift */; };
+		BFCB649428CED84A008BD548 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB649328CED84A008BD548 /* APIService.swift */; };
+		BFCB649628CED853008BD548 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB649528CED853008BD548 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		449B4D4DBA5CDC1F318A9A21 /* Pods-ROOV-Jobtest-Vincent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROOV-Jobtest-Vincent.release.xcconfig"; path = "Target Support Files/Pods-ROOV-Jobtest-Vincent/Pods-ROOV-Jobtest-Vincent.release.xcconfig"; sourceTree = "<group>"; };
+		9B195DF8912BA0A29B21E3F1 /* Pods-ROOV-Jobtest-Vincent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ROOV-Jobtest-Vincent.debug.xcconfig"; path = "Target Support Files/Pods-ROOV-Jobtest-Vincent/Pods-ROOV-Jobtest-Vincent.debug.xcconfig"; sourceTree = "<group>"; };
+		BFCB645D28CED559008BD548 /* ROOV-Jobtest-Vincent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ROOV-Jobtest-Vincent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCB646028CED559008BD548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFCB646228CED559008BD548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFCB646428CED559008BD548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFCB646728CED559008BD548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFCB646928CED55B008BD548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCB646C28CED55B008BD548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFCB646E28CED55B008BD548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCB648028CED632008BD548 /* UserReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserReviewTableViewCell.xib; sourceTree = "<group>"; };
+		BFCB648128CED632008BD548 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		BFCB648228CED632008BD548 /* UserReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserReviewTableViewCell.swift; sourceTree = "<group>"; };
+		BFCB648328CED632008BD548 /* MovieDetailsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MovieDetailsViewController.storyboard; sourceTree = "<group>"; };
+		BFCB648928CED64B008BD548 /* MovieCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		BFCB648A28CED64B008BD548 /* MovieCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFCB649328CED84A008BD548 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		BFCB649528CED853008BD548 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D29E09CE9DABD1A32A9B6625 /* Pods_ROOV_Jobtest_Vincent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ROOV_Jobtest_Vincent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCB645A28CED559008BD548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7761C6AE1AEBAB633A07A2C5 /* Pods_ROOV_Jobtest_Vincent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546EEF4321DDD753E73BE8C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B195DF8912BA0A29B21E3F1 /* Pods-ROOV-Jobtest-Vincent.debug.xcconfig */,
+				449B4D4DBA5CDC1F318A9A21 /* Pods-ROOV-Jobtest-Vincent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF50C3691ED0295F5E24DB88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29E09CE9DABD1A32A9B6625 /* Pods_ROOV_Jobtest_Vincent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCB645428CED559008BD548 = {
+			isa = PBXGroup;
+			children = (
+				BFCB645F28CED559008BD548 /* ROOV-Jobtest-Vincent */,
+				BFCB645E28CED559008BD548 /* Products */,
+				546EEF4321DDD753E73BE8C6 /* Pods */,
+				AF50C3691ED0295F5E24DB88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCB645E28CED559008BD548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB645D28CED559008BD548 /* ROOV-Jobtest-Vincent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCB645F28CED559008BD548 /* ROOV-Jobtest-Vincent */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB647E28CED619008BD548 /* Application */,
+				BFCB649128CED7D1008BD548 /* Services */,
+				BFCB649228CED813008BD548 /* Model */,
+				BFCB648D28CED65D008BD548 /* View */,
+				BFCB648E28CED694008BD548 /* ViewModel */,
+				BFCB646928CED55B008BD548 /* Assets.xcassets */,
+				BFCB646B28CED55B008BD548 /* LaunchScreen.storyboard */,
+				BFCB646E28CED55B008BD548 /* Info.plist */,
+			);
+			path = "ROOV-Jobtest-Vincent";
+			sourceTree = "<group>";
+		};
+		BFCB647E28CED619008BD548 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB646028CED559008BD548 /* AppDelegate.swift */,
+				BFCB646228CED559008BD548 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BFCB647F28CED632008BD548 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB648128CED632008BD548 /* MovieDetailsViewController.swift */,
+				BFCB648228CED632008BD548 /* UserReviewTableViewCell.swift */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		BFCB648828CED637008BD548 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB646428CED559008BD548 /* ViewController.swift */,
+				BFCB648A28CED64B008BD548 /* MovieCellCollectionViewCell.swift */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		BFCB648D28CED65D008BD548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB648828CED637008BD548 /* MovieList */,
+				BFCB647F28CED632008BD548 /* MovieDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFCB648E28CED694008BD548 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB648F28CED6F5008BD548 /* MovieList */,
+				BFCB649028CED6FB008BD548 /* MovieDetail */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFCB648F28CED6F5008BD548 /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB648928CED64B008BD548 /* MovieCellCollectionViewCell.xib */,
+				BFCB646628CED559008BD548 /* Main.storyboard */,
+			);
+			path = MovieList;
+			sourceTree = "<group>";
+		};
+		BFCB649028CED6FB008BD548 /* MovieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB648028CED632008BD548 /* UserReviewTableViewCell.xib */,
+				BFCB648328CED632008BD548 /* MovieDetailsViewController.storyboard */,
+			);
+			path = MovieDetail;
+			sourceTree = "<group>";
+		};
+		BFCB649128CED7D1008BD548 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB649328CED84A008BD548 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BFCB649228CED813008BD548 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB649528CED853008BD548 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCB645C28CED559008BD548 /* ROOV-Jobtest-Vincent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCB647128CED55B008BD548 /* Build configuration list for PBXNativeTarget "ROOV-Jobtest-Vincent" */;
+			buildPhases = (
+				7B5A0C14ED049739BFA39D7B /* [CP] Check Pods Manifest.lock */,
+				BFCB645928CED559008BD548 /* Sources */,
+				BFCB645A28CED559008BD548 /* Frameworks */,
+				BFCB645B28CED559008BD548 /* Resources */,
+				0B260781EBD85F287E9E0CC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ROOV-Jobtest-Vincent";
+			productName = "ROOV-Jobtest-Vincent";
+			productReference = BFCB645D28CED559008BD548 /* ROOV-Jobtest-Vincent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCB645528CED559008BD548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BFCB645C28CED559008BD548 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BFCB645828CED559008BD548 /* Build configuration list for PBXProject "ROOV-Jobtest-Vincent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCB645428CED559008BD548;
+			productRefGroup = BFCB645E28CED559008BD548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCB645C28CED559008BD548 /* ROOV-Jobtest-Vincent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCB645B28CED559008BD548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB648428CED632008BD548 /* UserReviewTableViewCell.xib in Resources */,
+				BFCB648B28CED64B008BD548 /* MovieCellCollectionViewCell.xib in Resources */,
+				BFCB646D28CED55B008BD548 /* LaunchScreen.storyboard in Resources */,
+				BFCB646A28CED55B008BD548 /* Assets.xcassets in Resources */,
+				BFCB648728CED632008BD548 /* MovieDetailsViewController.storyboard in Resources */,
+				BFCB646828CED559008BD548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B260781EBD85F287E9E0CC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROOV-Jobtest-Vincent/Pods-ROOV-Jobtest-Vincent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ROOV-Jobtest-Vincent/Pods-ROOV-Jobtest-Vincent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ROOV-Jobtest-Vincent/Pods-ROOV-Jobtest-Vincent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5A0C14ED049739BFA39D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ROOV-Jobtest-Vincent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCB645928CED559008BD548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCB648C28CED64B008BD548 /* MovieCellCollectionViewCell.swift in Sources */,
+				BFCB649428CED84A008BD548 /* APIService.swift in Sources */,
+				BFCB649628CED853008BD548 /* Model.swift in Sources */,
+				BFCB646528CED559008BD548 /* ViewController.swift in Sources */,
+				BFCB648528CED632008BD548 /* MovieDetailsViewController.swift in Sources */,
+				BFCB646128CED559008BD548 /* AppDelegate.swift in Sources */,
+				BFCB648628CED632008BD548 /* UserReviewTableViewCell.swift in Sources */,
+				BFCB646328CED559008BD548 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFCB646628CED559008BD548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB646728CED559008BD548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCB646B28CED55B008BD548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB646C28CED55B008BD548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFCB646F28CED55B008BD548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCB647028CED55B008BD548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCB647228CED55B008BD548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B195DF8912BA0A29B21E3F1 /* Pods-ROOV-Jobtest-Vincent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ROOV-Jobtest-Vincent/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.ROOV-Jobtest-Vincent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCB647328CED55B008BD548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449B4D4DBA5CDC1F318A9A21 /* Pods-ROOV-Jobtest-Vincent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ROOV-Jobtest-Vincent/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.ROOV-Jobtest-Vincent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCB645828CED559008BD548 /* Build configuration list for PBXProject "ROOV-Jobtest-Vincent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB646F28CED55B008BD548 /* Debug */,
+				BFCB647028CED55B008BD548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCB647128CED55B008BD548 /* Build configuration list for PBXNativeTarget "ROOV-Jobtest-Vincent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCB647228CED55B008BD548 /* Debug */,
+				BFCB647328CED55B008BD548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCB645528CED559008BD548 /* Project object */;
+}
